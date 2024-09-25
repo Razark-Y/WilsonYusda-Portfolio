@@ -20,16 +20,43 @@
         <span class="close-text">CLOSE</span>
       </label>
       <div class="menu-box">
+        <!-- <div class="social">
+          <div class="social-line"></div>
+          <ul class="social-list">
+            <li>
+              <a href="https://www.linkedin.com/in/wilson-yusda-8b8843246/" target="_blank">
+                <img src="assets/linkedin.png" alt="LinkedIn">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/wilson_yusda/profilecard/?igsh=MTliNXh1Y2F6bm8xNA==" target="_blank">
+                <img src="assets/instagram.png" alt="Instagram">
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Razark-Y" target="_blank">
+                <img src="assets/github.png" alt="Github">
+              </a>
+            </li>
+            <li>
+              <a  href="mailto:wilsonyusda@gmail.com" target="_blank">
+                <img src="assets/email.png" alt="Email">
+              </a>
+            </li>
+          </ul>
+        </div> -->
         <ul class="nav-links">    
-          <li><a href="#">About</a></li>
-          <li><a href="#">Project</a></li>
-          <li><a href="#">Article</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">CV</a></li>
-          <!-- <li class="find-me">
-            <a href="#">FIND ME</a>
-          </li> -->
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Project</a></li>
+          <li><a href="#article">Article</a></li>
+          <li><a href="#skills">Skills</a></li>
         </ul>
+      </div>
+      <div class="hire-me">
+        <a href="mailto:wilsonyusda@gmail.com">
+          <img src="assets/hire.png" alt="hire" class="hire-image">
+        </a>
+        <p><a href="mailto:wilsonyusda@gmail.com">Hire Me</a></p>
       </div>
     </nav>
   </header>
@@ -39,16 +66,41 @@
       <img src="assets/programmer.png" alt="programmer" class="programmer-image">
       <div class="Text">
         <h1 class="introduction-text">Hello I'm<br><span class="name">Wilson Yusda</span> </h1>
+        <p>Student of Informatics Engineering at Bandung Institute of Technology, Class of 2022.</p>
       </div>
     </section>
-    <section class="about">
+    <div class="scroll-indicator">
+      <p class="scroll-text">SCROLL</p>
+      <div class="vertical-line"></div>
+      <p class="project-text">Discover Me !</p>
+    </div>
+    <section class="about" id="about">
       <div class="about-text-group">
         <h2 class="about-title">Discover More About Me</h2>
         <div class="text-stripe-1"></div>
       </div>
-      <p class="self-info">I am driven by a strong passion for <span class="focus">Data Science</span> and <span class="focus">Artificial Intelligence</span>. I have undertaken numerous Data Science tasks and analyzed various problems, honing my skills in <span class="focus">EDA</span> and <span class="focus">machine learning model development</span>, and <span class="focus">data visualization</span>.</p>
+      <p class="self-info">I am driven by a strong passion for <strong>Data Science</strong> and <strong>Artificial Intelligence</strong>. I have undertaken numerous Data Science tasks and analyzed various problems, honing my skills in <strong>EDA</strong>, <strong>machine learning model development</strong>, and <strong>data visualization</strong>.</p>
+      <div class="experience">
+        <div class="experience-strip"></div>
+        <div class="bio">
+          <img src="assets/self.jpg" alt="self" class="self-image">
+          <div class="experience-container">
+            <h3 class="experience-title">Experience and Lifestory</h3>
+            <div class="experience-desc">
+              <p>During my first year, I volunteered as a <strong>frontend engineer</strong> at <strong>Parade Wisuda Oktober ITB </strong>, and <strong>ITB Fair</strong>. My responsibilities included building pages from Figma designs and developing functional components to meet project requirements.</p>
+              <p>I later discovered a growing interest in Data Science through my role as a <strong>Programming Laboratory Assistant</strong>, where one of the modules focused on data visualization. </p>
+              <p>I participated in my first competition during <strong>Data Science community's qualification</strong> round and successfully advanced. This marked the beginning of my Data Science journey, where I took part in numerous competitions. Notably, I was a <strong>top 10 finalist at IFEST</strong>. These experiences have solidified my passion for Data Science and continue to drive my growth in the field.</p>
+            </div>
+        </div>
+      </div>
+      </div>
     </section>
-    <section class="projects">
+    <div class="scroll-indicator">
+      <p class="scroll-text">SCROLL</p>
+      <div class="vertical-line"></div>
+      <p class="project-text">View My Projects !</p>
+    </div>
+    <section class="projects" id="projects">
       <div class="project-text-group">
         <h2 class="project-title">My Past Projects</h2>
         <div class="text-stripe-2"></div>
@@ -58,69 +110,217 @@
           <div class="image-slot">
             <img src="assets/Project-1.png" alt="Project" class="project-image">
           </div>
-          <h3 class="sub-project-title">Data Analysis project</h3>
-          <p class="sub-project-description">This is is supposed to be a long description explaining what this project does , why did i do it, and what my job is </p>
-          <p class="sub-project-skills"><span class="focus">Skills used</span>: Python, Pandas, Scikit-learn</p>
+          <h3 class="sub-project-title"><a href="https://razark-vehicle-sales-analysis.streamlit.app/">Interactive Car Sales Dashboard</a></h3>
+          <p class="sub-project-description">Developed an interactive dashboard enabling users to partition and analyze car sales data by month, providing insights into trends through dynamic visualizations.</p>
+          <p class="sub-project-skills"><strong>Skills used</strong>: Python, Pandas, Pyplot, Streamlit, Matplotlib</p>
+          <div class="project-stripe"></div>
         </div>
-        <div class="text-stripe-4"></div>
         <div class="project">
           <div class="image-slot">
-            <img src="assets/Project-1.png" alt="Project" class="project-image">
+            <img src="assets/Project-2.jpg" alt="Project" class="project-image">
           </div>
-          <h3 class="sub-project-title">Data Analysis project</h3>
-          <p class="sub-project-description">This is is supposed to be a long description explaining what this project does , why did i do it, and what my job is </p>
-          <p class="sub-project-skills"><span class="focus">Skills used</span>: Python, Pandas, Scikit-learn</p>
+          <h3 class="sub-project-title"><a href="https://github.com/Filbert88/Tubes3_Sangku">Fingerprint Pattern Matching Application</a></h3>
+            <p class="sub-project-description">Implemented fingerprint pattern matching using the Knuth-Morris-Pratt (KMP), Boyer-Moore (BM), and Levenshtein Distance (LD) algorithms to accurately detect and match patterns within image datasets.</p>
+            <p class="sub-project-skills"><strong>Skills used</strong>: Next JS, Tailwind CSS, TypeScript, Go.</p>
+            <div class="project-stripe"></div>
         </div>
-        <div class="text-stripe-4"></div>
         <div class="project">
           <div class="image-slot">
-            <img src="assets/Project-1.png" alt="Project" class="project-image">
+            <img src="assets/Project-3.png" alt="Project" class="project-image">
           </div>
-          <h3 class="sub-project-title">Data Analysis project</h3>
-          <p class="sub-project-description">This is is supposed to be a long description explaining what this project does , why did i do it, and what my job is </p>
-          <p class="sub-project-skills"><span class="focus">Skills used</span>: Python, Pandas, Scikit-learn</p>
+          <h3 class="sub-project-title"><a href="https://github.com/ChaiGans/Tubes2_BarengApin">Wikirace Game Clone with BFS and IDS</a></h3>
+          <p class="sub-project-description">Created a Wikirace game replica utilizing Breadth-First Search (BFS) and Iterative Deepening Search (IDS) algorithms to efficiently navigate between Wikipedia pages, simulating the challenge of finding the shortest path between topics.</p>
+          <p class="sub-project-skills"><strong>Skills used</strong>: Dotnet, WPF, PostgreSQL</p>
+          <div class="project-stripe"></div>
         </div>
-        <div class="text-stripe-4"></div>
         <div class="project">
           <div class="image-slot">
-            <img src="assets/Project-1.png" alt="Project" class="project-image">
+            <img src="assets/Project-4.png" alt="Project" class="project-image">
           </div>
-          <h3 class="sub-project-title">Data Analysis project</h3>
-          <p class="sub-project-description">This is is supposed to be a long description explaining what this project does , why did i do it, and what my job is </p>
-          <p class="sub-project-skills"><span class="focus">Skills used</span>: Python, Pandas, Scikit-learn</p>
+          <h3 class="sub-project-title"><a href="https://github.com/Razark-Y/Tucil3_13522019">Java World Ladder Game Solver</a></h3>
+          <p class="sub-project-description">Developed a word ladder game solver using Uniform Cost Search (UCS), Greedy, and A* algorithms to effectively determine the optimal solution to the word ladder puzzle.</p>
+          <p class="sub-project-skills"><strong>Skills used</strong>: Java, JavaFX</p>
         </div>
-        <div class="text-stripe-4"></div>
       </div>
     </section>
-    <section class="article">
+    <div class="scroll-indicator">
+      <p class="scroll-text">SCROLL</p>
+      <div class="vertical-line"></div>
+      <p class="project-text">View My Article !</p>
+    </div>
+    <section class="article" id="article">
       <div class="article-text-group">
         <h2 class="article-title">My Article</h2>
         <div class="text-stripe-3"></div>
       </div>
       <div class="writing-group">
         <div class="paper">
-          <p class="date">FEB 28 2024</p>
-          <h3 class="paper-title">Getting something from Nothing</h3>
-          <p class="paper-desc">When you're trying to use your phone less, what do you upgrade to? A sort-of review of swapping my phone for Nothing</p>
-          <p class="paper-links">Available:</p>
-          <div class="text-stripe-4"></div>
+          <p class="date">SEP 15 2024</p>
+          <div class="date-partition"></div>
+          <div class="paper-info">
+            <h3 class="paper-title"><a href="article-link-1">Regression Analysis in Identifying Factors Affecting Slum Population Percentage</a></h3>
+            <p class="paper-desc">I conducted a regression analysis using data from the United Nations to examine the factors influencing inadequate housing conditions, aligning the findings with the goals of SDG 11: Sustainable Cities and Communities.</p>
+          </div>
         </div>
+        <div class="text-stripe-4"></div>
         <div class="paper">
-          <p class="date">FEB 28 2024</p>
-          <h3 class="paper-title">Getting something from Nothing</h3>
-          <p class="paper-desc">When you're trying to use your phone less, what do you upgrade to? A sort-of review of swapping my phone for Nothing</p>
-          <p class="paper-links">Available:</p>
-          <div class="text-stripe-4"></div>
+          <p class="date">AUG 25 2024</p>
+          <div class="date-partition"></div>
+          <div class="paper-info">
+            <h3 class="paper-title"><a href="article-link-2">Predictive Modeling of Solar Energy Output Using Timestamp and Environmental Data Analysis</a></h3>
+            <p class="paper-desc">I performed timestamp-based predictions to forecast the amount of solar energy produced. By combining multi-year data scenarios with environmental conditions, I developed a model to enhance the accuracy of solar power output predictions.</p>
+          </div>
         </div>
+        <div class="text-stripe-4"></div>
         <div class="paper">
-          <p class="date">FEB 28 2024</p>
-          <h3 class="paper-title">Getting something from Nothing</h3>
-          <p class="paper-desc">When you're trying to use your phone less, what do you upgrade to? A sort-of review of swapping my phone for Nothing</p>
-          <p class="paper-links">Available:</p>
-          <div class="text-stripe-4"></div>
+          <p class="date">JUN 12 2024</p>
+          <div class="date-partition"></div>
+          <div class="paper-info">
+            <h3 class="paper-title"><a href="https://informatika.stei.itb.ac.id/~rinaldi.munir/Stmik/2023-2024/Makalah/Makalah-IF2211-Stima-2024%20(18).pdf">Uniform Cost Search as a Strategy for Hyperparameter Optimization</a></h3>
+            <p class="paper-desc"> I applied the Uniform Cost Search (UCS) algorithm for hyperparameter tuning in machine learning models and compared its performance with traditional methods such as grid search and random search. </p>
+          </div>
         </div>
       </div>
     </section>
+    <div class="scroll-indicator">
+      <p class="scroll-text">SCROLL</p>
+      <div class="vertical-line"></div>
+      <p class="project-text">View My Skills !</p>
+    </div>
+    <section class="skills" id="skills">
+      <div class="skills-text-group">
+        <h2 class="skill-title">Skills Proficiency</h2>
+        <div class="text-stripe-5"></div>
+      </div>
+      <div class="skills-group">
+        <input type="checkbox" id="skill-1" hidden>
+        <label for="skill-1" class="skillset">
+          <h3 class="skill-singular">Python</h3>
+          <p class="proficiency">4 years</p>
+        </label>
+        <input type="checkbox" id="skill-2" hidden>
+        <label for="skill-2" class="skillset">
+          <h3 class="skill-singular">Matplotlib</h3>
+          <p class="proficiency">3 years</p>
+        </label>
+        <input type="checkbox" id="skill-3" hidden>
+        <label for="skill-3" class="skillset">
+          <h3 class="skill-singular">Scikit-learn</h3>
+          <p class="proficiency">3 years</p>
+        </label>
+        <input type="checkbox" id="skill-4" hidden>
+        <label for="skill-4" class="skillset">
+          <h3 class="skill-singular">Pandas</h3>
+          <p class="proficiency">3 years</p>
+        </label>
+        <input type="checkbox" id="skill-5" hidden>
+        <label for="skill-5" class="skillset">
+          <h3 class="skill-singular">Predictive Analysis</h3>
+          <p class="proficiency">3 years</p>
+        </label>
+        <input type="checkbox" id="skill-6" hidden>
+        <label for="skill-6" class="skillset">
+          <h3 class="skill-singular">Data visualization</h3>
+          <p class="proficiency">3 years</p>
+        </label>
+        <input type="checkbox" id="skill-7" hidden>
+        <label for="skill-7" class="skillset">
+          <h3 class="skill-singular">Data Analysis</h3>
+          <p class="proficiency">3 years</p>
+        </label>
+        <input type="checkbox" id="skill-8" hidden>
+        <label for="skill-8" class="skillset">
+          <h3 class="skill-singular">Tailwind CSS</h3>
+          <p class="proficiency">3 years</p>
+        </label>
+        <input type="checkbox" id="skill-9" hidden>
+        <label for="skill-9" class="skillset">
+          <h3 class="skill-singular">MySQL</h3>
+          <p class="proficiency">2 years</p>
+        </label>
+        <input type="checkbox" id="skill-10" hidden>
+        <label for="skill-10" class="skillset">
+          <h3 class="skill-singular">React JS</h3>
+          <p class="proficiency">2 years</p>
+        </label>
+        <input type="checkbox" id="skill-11" hidden>
+        <label for="skill-11" class="skillset">
+          <h3 class="skill-singular">Javascript</h3>
+          <p class="proficiency">2 years</p>
+        </label>
+        <input type="checkbox" id="skill-12" hidden>
+        <label for="skill-12" class="skillset">
+          <h3 class="skill-singular">TypeScript</h3>
+          <p class="proficiency">2 years</p>
+        </label>
+        <input type="checkbox" id="skill-13" hidden>
+        <label for="skill-13" class="skillset">
+          <h3 class="skill-singular">Streamlit</h3>
+          <p class="proficiency">1 year</p>
+        </label>
+        <input type="checkbox" id="skill-14" hidden>
+        <label for="skill-14" class="skillset">
+          <h3 class="skill-singular">C/C++</h3>
+          <p class="proficiency">1 year</p>
+        </label>
+        <input type="checkbox" id="skill-15" hidden>
+        <label for="skill-15" class="skillset">
+          <h3 class="skill-singular">Dotnet</h3>
+          <p class="proficiency">1 year</p>
+        </label>
+        <input type="checkbox" id="skill-16" hidden>
+        <label for="skill-16" class="skillset">
+          <h3 class="skill-singular">Go</h3>
+          <p class="proficiency">1 year</p>
+        </label>
+        <input type="checkbox" id="skill-17" hidden>
+        <label for="skill-17" class="skillset">
+          <h3 class="skill-singular">Java</h3>
+          <p class="proficiency">1 year</p>
+        </label>
+        <input type="checkbox" id="skill-18" hidden>
+        <label for="skill-18" class="skillset">
+          <h3 class="skill-singular">Prolog</h3>
+          <p class="proficiency">1 year</p>
+        </label>
+        <input type="checkbox" id="skill-19" hidden>
+        <label for="skill-19" class="skillset">
+          <h3 class="skill-singular">Communication</h3>
+          <p class="proficiency">For a long time</p>
+        </label>
+        <input type="checkbox" id="skill-20" hidden>
+        <label for="skill-20" class="skillset">
+          <h3 class="skill-singular">Teamwork</h3>
+          <p class="proficiency">For a long time</p>
+        </label>
+      </div>
+    </section>
   </main>
+  <footer>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/wilson-yusda-8b8843246/" target="_blank">
+            <img src="assets/linkedin.png" alt="LinkedIn" width="50" height="50">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/wilson_yusda/profilecard/?igsh=MTliNXh1Y2F6bm8xNA==" target="_blank">
+            <img src="assets/instagram.png" alt="Instagram" width="50" height="50">
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Razark-Y" target="_blank">
+            <img src="assets/github.png" alt="Github" width="50" height="50">
+          </a>
+        </li>
+        <li>
+          <a  href="mailto:wilsonyusda@gmail.com" target="_blank">
+            <img src="assets/email.png" alt="Email" width="50" height="50">
+          </a>
+        </li>
+      </ul>
+    <p>&copy; 2024; Designed by Wilson Yusda</p>
+  </footer>
+  
 </body>
 </html>
