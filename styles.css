@@ -410,7 +410,6 @@ footer{
 
 footer p{
     font-size: 1rem;
-    /* font-weight: bold; */
     background-color: #0F1B61;
     color: #B8D5ED;
     padding: 1rem 1rem;
@@ -486,7 +485,7 @@ footer ul li a{
     .nav-links {
         flex-direction: row; 
         justify-content: flex-start;
-        gap: 4rem; 
+        gap: 3rem; 
         margin-left: 2rem;
     }
 
@@ -497,26 +496,29 @@ footer ul li a{
 
     .intro{
         flex-direction: row;
-        gap: 10rem;
-        /* margin-top: 10rem; */
-        margin: 10rem 5rem;
     }
-
+    .introduction-text {
+        font-weight: 400;
+        line-height: 3.5rem;
+    }
+    
     .programmer-image{
-        width: 500px;
-        height: 500px;
+        width: 50%;
+        max-width: 100%;
+        height: 50%;
     }
-
+    
     .introduction-text{
-        font-size: 4rem;
+        font-size: 2rem;
         line-height: 7rem;
     }
 
     .name{
-        font-size: 5rem;
+        font-size: 4rem;
     }
+    
     .Text p{
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
     .bio{
         display: flex;
@@ -524,11 +526,14 @@ footer ul li a{
     }
 
     .self-image{
-        width: 60%;
-        height: 800px;
+        width: 40%;
+        height: 80%;
+    }
+    .intro{
+        margin: 10rem 2rem;
     }
     .about,.projects,.article,.skills{
-        margin: 10rem 5rem;
+        margin: 10rem 2rem;
     }
 
     .skill-title,.project-title,.about-title,.article-title{
@@ -553,7 +558,7 @@ footer ul li a{
     .project-group {
         display: grid;
         grid-template-columns: repeat(2, 1fr); 
-        gap: 8rem; 
+        gap: 4rem; 
         margin-top: 4rem;
     }
     .project{
@@ -565,9 +570,7 @@ footer ul li a{
     }
     .project-image {
         width: 100%;
-        /* height: 100%; */
         height: auto;
-        /* object-fit: cover; */
     }
 
     .paper{
@@ -593,10 +596,7 @@ footer ul li a{
     }
     .skills-group{
         display: grid;
-        gap: 1rem;
-        grid-template-columns: repeat(5, 1fr);
-        /* flex-direction: column; */
-        /* margin: 1rem 0rem; */
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .skillset h3{
@@ -604,7 +604,7 @@ footer ul li a{
     }
 
     .skillset p{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
 .skillset:hover {
@@ -636,7 +636,7 @@ footer ul li a img:hover{
 }
 
 .hire-me{
-    margin-right: 5rem;
+    margin-right: 2rem;
     font-size: 1.2rem;
     gap: 1.4rem;
 }
