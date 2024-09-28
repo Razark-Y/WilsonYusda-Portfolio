@@ -157,29 +157,6 @@ letter-spacing: 8px;
     transition: opacity 0.3s ease-in-out 0.2s;
 }
 
-/* .social{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1rem;
-}
-
-.social-list{
-    display: flex;
-    gap: 1rem;
-    margin-left: 2rem;
-}
-
-.social-list li{
-    list-style: none;
-    padding: 0;
-    margin-top: 1rem;
-}
-.social-line{
-    height: 0.5rem;
-    background: #7f00e0;
-    width: 100px;
-} */
 .menu-box img {
     width: 30px;
     height: 30px;
@@ -238,13 +215,6 @@ letter-spacing: 8px;
     margin:2rem 0rem;
 }
 
-.project-stripe{
-    background-color: #d2f5f3;
-    height: 0.2rem;
-    width: 100%;
-    margin: 2rem 0rem;
-}
-
 .self-info,.experience-desc{
     text-align: justify;
 }
@@ -261,7 +231,24 @@ letter-spacing: 8px;
     height: 0.3rem; 
     margin: 1rem 0rem;
 }
+.project{
+    border:1px solid #09272a;
+    background-color: #d2f5f3;
+    border-radius:1%;
+    margin: 0;
+    padding: 1rem;
+}
 
+.project-stripe{
+    background-color: #d2f5f3;
+    height: 0.2rem;
+    width: 100%;
+    margin: 2rem 0rem;
+}
+
+.project-group{
+    gap: 2rem;
+}
 .project-title{
     color: #1C494C;
     line-height: 2.5rem;
@@ -287,13 +274,6 @@ letter-spacing: 8px;
 .sub-project-description{
     line-height: 1.8rem;
     text-align: justify;
-}
-
-.project-image{
-    width: 100%;
-    height: auto;
-    border-radius: 5%;
-    margin-bottom: 1.5rem;
 }
 
 .project-group{
@@ -570,21 +550,11 @@ footer ul li a{
     .project-group {
         display: grid;
         grid-template-columns: repeat(2, 1fr); 
-        gap: 4rem; 
         margin-top: 4rem;
-    }
-    .project{
-        margin: 0;
-        padding: 0;
     }
     .project-stripe{
         display: none;
     }
-    .project-image {
-        width: 100%;
-        height: auto;
-    }
-
     .paper{
         display: flex;
         margin-top: 4rem;
@@ -608,7 +578,7 @@ footer ul li a{
     }
     .skills-group{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .skillset h3{
@@ -625,10 +595,6 @@ footer ul li a{
 footer ul li a img:hover{
     transform: scale(1.5); 
 } 
-
-.project-image:hover{
-    transform: scale(1.05);
-}
 .skillset::before {
     content: "";
     position: absolute;
