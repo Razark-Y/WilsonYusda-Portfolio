@@ -608,11 +608,11 @@ footer ul li a{
     }
     .skills-group{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .skillset h3{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .skillset p{
