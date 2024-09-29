@@ -479,7 +479,9 @@ footer ul li a{
         font-size: 1.2rem; 
         font-weight: 600;
     }
-
+    .self-info{
+        margin-top: 2rem;
+    }
     .intro{
         flex-direction: row;
         justify-content: space-around;
@@ -536,7 +538,7 @@ footer ul li a{
     }
 
     .self-info,.experience-desc,.sub-project-description,.sub-project-skills,.paper-desc{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .date{
