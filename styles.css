@@ -8,8 +8,8 @@ body {
     background-color: #FDFBF9;
     font-family: 'Inknut Antiqua', serif;
     color: #0F1B61;
-    width: 100vw; /* Always take full viewport width */
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    width: 100vw; 
+    overflow-x: hidden; 
     max-width: 100vw;
 }
 a {
@@ -342,7 +342,7 @@ letter-spacing: 8px;
 
 .skills-group{
     display: grid;
-    gap: 1rem;
+    gap: 1.4rem;
     grid-template-columns: repeat(2, 1fr);
     /* flex-direction: column; */
     /* margin: 1rem 0rem; */
@@ -535,8 +535,12 @@ footer ul li a{
         margin:2rem 0rem;
     }
 
-    .self-info,.experience-desc,.sub-project-description,.sub-project-skills,.date,.paper-desc{
-        font-size: 1.3rem;
+    .self-info,.experience-desc,.sub-project-description,.sub-project-skills,.paper-desc{
+        font-size: 1rem;
+    }
+
+    .date{
+        font-size: 1.5rem;
     }
 
     .sub-project-description,.paper-desc{
@@ -578,9 +582,11 @@ footer ul li a{
     }
     .skills-group{
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
-
+    .skillset{
+        border-radius: 1%;
+    }
     .skillset h3{
         font-size: 1rem;
     }
@@ -589,43 +595,43 @@ footer ul li a{
         font-size: 0.9rem;
     }
 
-.skillset:hover {
-    transform: scale(1.05); 
-  } 
-footer ul li a img:hover{
-    transform: scale(1.5); 
-} 
-.skillset::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(126, 102, 199, 0.4); 
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    z-index: 1;
-    border-radius: 5%;
-}
+    .skillset:hover {
+        transform: scale(1.03); 
+    } 
+    footer ul li a img:hover{
+        transform: scale(1.5); 
+    } 
+    .skillset::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(126, 102, 199, 0.4); 
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        z-index: 1;
+        border-radius: 1%;
+    }
 
-.sub-project-title:hover,.paper-title:hover{
-    text-decoration: underline;
-}
+    .sub-project-title:hover,.paper-title:hover{
+        text-decoration: underline;
+    }
 
-.hire-me{
-    margin-right: 2rem;
-    font-size: 1.2rem;
-    gap: 1.4rem;
-}
+    .hire-me{
+        margin-right: 2rem;
+        font-size: 1.2rem;
+        gap: 1.4rem;
+    }
 
-.hire-me p:hover{
-    transform: scale(1.1); 
-}
+    .hire-me p:hover{
+        transform: scale(1.1); 
+    }
 
-.nav-links li:hover{
-    transform: scale(1.1); 
-}
+    .nav-links li:hover{
+        transform: scale(1.1); 
+    }
 
 }
   
