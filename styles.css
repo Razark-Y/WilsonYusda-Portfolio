@@ -76,12 +76,11 @@ main{
 
 .introduction-text{
     font-weight: 400;
-    line-height: 3.5rem;
 }
 
 .name{
     font-weight: 900;
-    font-size: 2rem
+    font-size: 2rem;
 }
 
 .intro{
@@ -208,22 +207,23 @@ letter-spacing: 8px;
     border-radius: 5%;
     margin: 1rem 0rem;
 }
-.experience-strip{
-    background-color: #fee5e9;
-    height: 0.2rem;
-    width: 100%;
-    margin:2rem 0rem;
-}
 
 .self-info,.experience-desc{
     text-align: justify;
 }
 
+.experience-container h3{
+    margin-top: 2rem;
+}
 
 .experience-desc{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    background: #e5f3f9;
+    padding: 1rem;
+    border: 2px solid #13303e;
+    border-radius: 1%;
 }
 .text-stripe-2{
     background: #73CADC;
@@ -487,8 +487,8 @@ footer ul li a{
     .introduction-text {
         font-weight: 400;
         line-height: 3.5rem;
-        font-size: 1.5rem;
-        line-height: 7rem;
+        font-size: 2rem;
+        line-height: 5rem;
     }
 
     .programmer-container{
@@ -502,7 +502,7 @@ footer ul li a{
         height: 90%;
     }
     .name{
-        font-size: 3rem;
+        font-size: 4rem;
     }
     .Text{
         width: 50%;
@@ -510,7 +510,7 @@ footer ul li a{
         height: 100%;
     }
     .Text p{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .bio{
         display: flex;
@@ -578,7 +578,7 @@ footer ul li a{
     }
     .skills-group{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(5, 1fr);
     }
 
     .skillset h3{
