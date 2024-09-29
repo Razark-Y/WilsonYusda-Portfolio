@@ -13,10 +13,10 @@ body {
     max-width: 100vw;
 }
 a {
-    text-decoration: none; /* Removes the underline */
-    color: inherit; /* Inherits the color from the surrounding text */
-    font-weight: inherit; /* Inherits the font-weight from the surrounding text */
-    font-size: inherit; /* Inherits the font-size from the surrounding text */
+    text-decoration: none;
+    color: inherit; 
+    font-weight: inherit; 
+    font-size: inherit; 
 }
 
 html{
@@ -35,7 +35,7 @@ header {
     margin-top: 1rem;
 }
 .hire-me{
-    margin-left: auto; /* Pushes the image container to the right */
+    margin-left: auto; 
     margin-right: 1rem;
     display: flex;
     gap: 0.5rem;
@@ -337,15 +337,13 @@ letter-spacing: 8px;
     width: 30%;
     margin:1rem 0rem;
     margin-bottom: 2rem;
-    /* border-radius: 10px; */
+
 }
 
 .skills-group{
     display: grid;
     gap: 1.4rem;
     grid-template-columns: repeat(2, 1fr);
-    /* flex-direction: column; */
-    /* margin: 1rem 0rem; */
 }
 
 .skill-singular{
@@ -378,7 +376,7 @@ input[type="checkbox"]:checked + label .proficiency {
 }
 
 .skillset:active .proficiency {
-    max-height: 100px; /* Set this according to the actual content height */
+    max-height: 100px;
     opacity: 1;
     display: block;
     opacity: 1;
@@ -424,9 +422,9 @@ footer ul li a{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 30rem; /* Adjust this height based on your layout */
+    height: 30rem; 
     position: relative;
-    margin: 5rem 0rem; /* Adjust this margin based on your layout */
+    margin: 5rem 0rem;
   }
   
   .scroll-text {
@@ -494,7 +492,6 @@ footer ul li a{
     }
 
     .programmer-container{
-        /* border: 3px solid red; */
         width: 30%;
         height: full;
     }
@@ -508,7 +505,6 @@ footer ul li a{
     }
     .Text{
         width: 50%;
-        /* border: 3px solid red; */
         height: 100%;
     }
     .Text p{
