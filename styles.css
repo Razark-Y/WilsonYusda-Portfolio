@@ -570,6 +570,10 @@ footer ul li a{
         justify-content: center;
         width: 20%;
     }
+
+    .about-text-group h2{
+        line-height: 4rem;
+    }
     .paper-info{
         width: fit-content;
     }
