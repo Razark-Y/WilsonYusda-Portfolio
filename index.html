@@ -9,6 +9,106 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    .experience-item {
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      border-left: 4px solid #FF6B6B;
+      background: #abe4e3;
+      border-radius: 8px;
+      color: white;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+    .experience-text-group{
+      margin-left:2rem;
+    }
+    .awards-item {
+      margin-bottom: 2rem;
+      margin-right: 2rem;
+      margin-left: 2rem;
+      padding: 1.5rem;
+      border-left: 4px solid #4ECDC4;
+      background: #c4eeca;
+      border-radius: 8px;
+      color: #0b2811;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    
+    .experience-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+      color: #0b2811;
+    }
+    
+    .experience-role {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: white;
+      margin-bottom: 0.25rem;
+      color: #0b2811;
+    }
+    
+    .experience-company {
+      font-size: 1rem;
+      color: #0b2811;
+      font-style: italic;
+    }
+    
+    .experience-duration {
+      font-size: 0.9rem;
+      color: #0b2811;
+      white-space: nowrap;
+    }
+    
+    .experience-location {
+      font-size: 0.9rem;
+      color: #0b2811;
+      margin-top: 0.25rem;
+    }
+    
+    .experience-description {
+      margin-top: 1rem;
+      line-height: 1.6;
+      color: #0b2811;
+    }
+    
+    .experience-description ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .experience-description li {
+      margin-bottom: 0.5rem;
+      position: relative;
+      padding-left: 1.5rem;
+    }
+    
+    .experience-description li:before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: #333;
+      font-weight: bold;
+    }
+    
+    @media (max-width: 768px) {
+      .experience-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      
+      .experience-duration {
+        margin-top: 0.5rem;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -24,6 +124,8 @@
       <div class="menu-box">
         <ul class="nav-links">    
           <li><a href="#about">About</a></li>
+          <li><a href="#awards">Awards</a></li>
+          <li><a href="#experience">Professional Experience</a></li>
           <li><a href="#projects">Project</a></li>
           <li><a href="#article">Article</a></li>
           <li><a href="#skills">Skills</a></li>
@@ -51,26 +153,124 @@
     <figure class="scroll-indicator">
       <p class="scroll-text">SCROLL</p>
       <div class="vertical-line"></div>
-      <p class="project-text">Discover Me !</p>
+      <p class="project-text">View My Awards !</p>
     </figure>
+    
+    <section class="awards" id="awards">
+      <section class="awards-text-group">
+        <h2 class="awards-title">Awards & Recognition</h2>
+        <div class="text-stripe-awards"></div>
+      </section>
+      
+      <section class="awards-section">
+        <div class="awards-item">
+          <div class="experience-header">
+            <div>
+              <h4 class="experience-role">Champion - IFEST Data Analysis Competition</h4>
+              <p class="experience-company">Universitas Padjajaran</p>
+              <p class="experience-location">May 10, 2024</p>
+            </div>
+          </div>
+          <div class="experience-description">
+            <p>Achieved first place in the prestigious IFEST Data Analysis Competition by analyzing factors shaping AI's societal impact using advanced regression models. Successfully presented diverse data representations on AI's societal impact datasets and effectively responded to audience inquiries during the presentation phase. This achievement demonstrated strong analytical skills and the ability to communicate complex data insights to both technical and non-technical audiences.</p>
+          </div>
+        </div>
+
+        <div class="awards-item">
+          <div class="experience-header">
+            <div>
+              <h4 class="experience-role">Semifinalist - FindIT Data Analysis Competition</h4>
+              <p class="experience-company">Universitas Gadjah Mada</p>
+              <p class="experience-location">September 4, 2025</p>
+            </div>
+          </div>
+          <div class="experience-description">
+            <p>Reached the semifinals of the FindIT Data Analysis Competition by successfully classifying key factors influencing COPPA risk using sophisticated classification models. Conducted comprehensive feature extraction based on extensive literature review and compiled a detailed analysis report regarding model evaluation. This recognition highlighted expertise in machine learning classification techniques and thorough analytical methodology in addressing complex data science challenges.</p>
+          </div>
+        </div>
+      </section>
+    </section>
+    
+    <figure class="scroll-indicator">
+      <p class="scroll-text">SCROLL</p>
+      <div class="vertical-line"></div>
+      <p class="project-text">View My Experience !</p>
+    </figure>
+    
+    <section class="experience" id="experience">
+
     <section class="about" id="about">
       <section class="about-text-group">
         <h2 class="about-title">Discover More About Me</h2>
         <div class="text-stripe-1"></div>
       </section>
-      <section class="experience">
+      <section class="about-content">
         <div class="image-container">
           <img src="assets/self.jpg" alt="self" class="self-image">
         </div>
-        <p class="self-info">I am driven by a strong passion for <strong>Data Science</strong> and <strong>Artificial Intelligence</strong>. Over the course of my journey, I have engaged in a wide range of <strong>Data Science</strong> tasks, from conducting <strong>Exploratory Data Analysis (EDA)</strong> to developing robust <strong>machine learning models</strong> and crafting insightful <strong>data visualizations</strong>. I’ve worked on diverse datasets, applying both classical and advanced techniques to uncover trends, make predictions, and provide data-driven insights. This process has not only refined my technical expertise but also deepened my understanding of the critical role data plays in solving real-world challenges across different domains.</p>
-        <article class="experience-container">
-          <h3 class="experience-title">My Experience</h3>
-          <section class="experience-desc">
-            <p>During my first year, I volunteered as a <strong>frontend engineer</strong> at <strong>Parade Wisuda Oktober ITB </strong>, and <strong>ITB Fair</strong>. My responsibilities included building pages from Figma designs and developing functional components to meet project requirements.</p>
-            <p>I later discovered a growing interest in <strong>Data Science </strong>through my role as a <strong>Programming Laboratory Assistant</strong>, where one of the modules focused on data visualization. In this role, I was responsible for managing more than 70 students, assisting them with their practical work, grading their assignments, and providing instruction on the available modules. The modules included Python and pandas for data analysis.</p>
-            <p>I participated in my first competition during <strong>Data Science community's qualification</strong> round and successfully advanced. This marked the beginning of my Data Science journey, where I took part in numerous competitions. Notably, I was a <strong>top 10 finalist at IFEST</strong>. These experiences have solidified my passion for Data Science and continue to drive my growth in the field.</p>
-          </article>
-        </section>
+        <p class="self-info">I am driven by a strong passion for <strong>Data Science</strong> and <strong>Artificial Intelligence</strong>. Over the course of my journey, I have engaged in a wide range of <strong>Data Science</strong> tasks, from conducting <strong>Exploratory Data Analysis (EDA)</strong> to developing robust <strong>machine learning models</strong> and crafting insightful <strong>data visualizations</strong>. I've worked on diverse datasets, applying both classical and advanced techniques to uncover trends, make predictions, and provide data-driven insights. This process has not only refined my technical expertise but also deepened my understanding of the critical role data plays in solving real-world challenges across different domains.</p>
+      </section>
+    </section>
+                <section class="experience-text-group">
+        <h2 class="experience-title">Professional Experience</h2>
+        <div class="text-stripe-experience"></div>
+      </section>
+      <section class="experience-section">
+        <div class="experience-item">
+          <div class="experience-header">
+            <div>
+              <h4 class="experience-role">AI Engineer Intern</h4>
+              <p class="experience-company">PT Maknadata Vimo Bersama</p>
+              <p class="experience-location">Bandung, Indonesia</p>
+            </div>
+            <div class="experience-duration">April 2025 – July 2025</div>
+          </div>
+          <div class="experience-description">
+            <p>During my internship as an AI Engineer, I successfully integrated the ALMA AI Assistant into web platforms using FastAPI and NextJS, creating a seamless user experience. I developed and implemented a comprehensive RAG (Retrieval-Augmented Generation) flow that efficiently handled complex queries across multiple data sources including Milvus vector database, web search APIs, and Supabase. My work involved utilizing cutting-edge open-source Large Language Models and integrating them as functional nodes through LangChain, contributing to the advancement of AI-powered applications in the company's technology stack.</p>
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <div class="experience-header">
+            <div>
+              <h4 class="experience-role">Basic Programming Laboratory Assistant</h4>
+              <p class="experience-company">Comlabs-USDI ITB</p>
+              <p class="experience-location">Bandung, Indonesia</p>
+            </div>
+            <div class="experience-duration">September 2023 – November 2024</div>
+          </div>
+          <div class="experience-description">
+            <p>As a Laboratory Assistant, I took on the responsibility of supervising and managing over 68 students during intensive laboratory activities, ensuring effective learning outcomes. My role involved teaching fundamental data analytics skills using Python and pandas, where I developed comprehensive instructional materials and provided hands-on guidance. I was responsible for grading assignments, evaluating student performance, and delivering instruction on various programming modules. Additionally, I assisted students with practical work in data visualization and analysis, helping them develop essential skills for their academic and professional growth in the field of computer science.</p>
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <div class="experience-header">
+            <div>
+              <h4 class="experience-role">Frontend Developer</h4>
+              <p class="experience-company">Parade Wisuda Oktober ITB</p>
+              <p class="experience-location">Bandung, Indonesia</p>
+            </div>
+            <div class="experience-duration">September 2023 – October 2023</div>
+          </div>
+          <div class="experience-description">
+            <p>In my role as a Frontend Developer for the graduation ceremony website, I developed comprehensive profile and search pages specifically designed for university alumni, creating an intuitive and user-friendly interface. I built various interactive components including sophisticated search bars and information cards, transforming Figma designs into fully functional web elements. My work focused on ensuring complete responsiveness across all devices and maintaining precise alignment with the original design specifications, contributing to a successful digital platform that served the university community during the graduation ceremony period.</p>
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <div class="experience-header">
+            <div>
+              <h4 class="experience-role">Frontend Developer</h4>
+              <p class="experience-company">ITB Fair</p>
+              <p class="experience-location">Bandung, Indonesia</p>
+            </div>
+            <div class="experience-duration">Volunteer Experience</div>
+          </div>
+          <div class="experience-description">
+            <p>As a volunteer Frontend Developer for ITB Fair, I collaborated with a diverse team of developers to create engaging web experiences for the university's annual fair event. My contributions included building functional web components that met specific project requirements and converting detailed Figma designs into responsive, interactive web pages. Through this volunteer experience, I gained valuable insights into collaborative development processes and contributed to creating a digital platform that enhanced the overall experience for fair participants and visitors.</p>
+          </div>
+        </div>
       </section>
     </section>
     <figure class="scroll-indicator">
@@ -107,6 +307,7 @@
           <p class="sub-project-description">Developed a word ladder game solver using Uniform Cost Search (UCS), Greedy, and A* algorithms to effectively determine the optimal solution to the word ladder puzzle.</p>
           <p class="sub-project-skills"><strong>Skills used</strong>: Java, JavaFX</p>
         </article>
+
       </section>
     </section>
     <figure class="scroll-indicator">
@@ -153,6 +354,7 @@
       <div class="vertical-line"></div>
       <p class="project-text">View My Skills !</p>
     </figure>
+    
     <section class="skills" id="skills">
       <section class="skills-text-group">
         <h2 class="skill-title">Skills Proficiency</h2>
@@ -161,7 +363,7 @@
       <section class="skills-group">
         <input type="checkbox" id="skill-1" hidden>
         <label for="skill-1" class="skillset">
-          <h3 class="skill-singular">Python</h3>
+          <h3 class="skill-singular">Python/Pandas</h3>
           <p class="proficiency">4 years</p>
         </label>
         <input type="checkbox" id="skill-2" hidden>
@@ -169,19 +371,11 @@
           <h3 class="skill-singular">Matplotlib</h3>
           <p class="proficiency">3 years</p>
         </label>
-        <input type="checkbox" id="skill-3" hidden>
-        <label for="skill-3" class="skillset">
-          <h3 class="skill-singular">Scikit-learn</h3>
-          <p class="proficiency">3 years</p>
-        </label>
-        <input type="checkbox" id="skill-4" hidden>
-        <label for="skill-4" class="skillset">
-          <h3 class="skill-singular">Pandas</h3>
-          <p class="proficiency">3 years</p>
-        </label>
+        
+
         <input type="checkbox" id="skill-5" hidden>
         <label for="skill-5" class="skillset">
-          <h3 class="skill-singular">Predictive Analysis</h3>
+          <h3 class="skill-singular">Docker</h3>
           <p class="proficiency">3 years</p>
         </label>
         <input type="checkbox" id="skill-6" hidden>
@@ -193,6 +387,16 @@
         <label for="skill-7" class="skillset">
           <h3 class="skill-singular">Data Analysis</h3>
           <p class="proficiency">3 years</p>
+        </label>
+        <input type="checkbox" id="skill-3" hidden>
+        <label for="skill-3" class="skillset">
+          <h3 class="skill-singular">LangChain/LangGraph</h3>
+          <p class="proficiency">2 years</p>
+        </label>
+        <input type="checkbox" id="skill-4" hidden>
+        <label for="skill-4" class="skillset">
+          <h3 class="skill-singular">LLM Development</h3>
+          <p class="proficiency">2 years</p>
         </label>
         <input type="checkbox" id="skill-8" hidden>
         <label for="skill-8" class="skillset">
